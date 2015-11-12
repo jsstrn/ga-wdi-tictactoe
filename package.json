@@ -8,7 +8,7 @@
     "test": "standard",
     "clean": "rm -rf dist",
     "build": "npm run clean && npm run build-dir && npm run build-html && npm run build-css && npm build-js",
-    "build-dir": "mkdir dist/css && mkdir dist/js",
+    "build-dir": "mkdir dist && mkdir dist/css && mkdir dist/js",
     "build-html": "cp game/index.html dist/index.html",
     "build-css": "cp game/css/style.css dist/css/style.css",
     "build-js": "browserify game/js/game.js --outfile dist/js/game.js --transform babelify"
