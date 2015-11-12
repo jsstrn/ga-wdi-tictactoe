@@ -1,0 +1,32 @@
+body {
+  background-color: black;
+  font-family: 'Helvetica', sans-serif;
+  color: white;
+  text-align: center;
+}
+
+h1 {
+  font-size: 4em;
+}
+
+div.row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+div.tile {
+  /* style box */
+  background: black;
+  border: 5px solid white;
+  text-align: center;
+  height: 150px;
+  width: 150px;
+  /* style text */
+  font-size: 5em;
+  font-weight: bold;
+  line-height: 180%;
+  /* style flex */
+  display: inline-block;
+  overflow: auto;
+}
