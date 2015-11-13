@@ -18,7 +18,7 @@ div.row {
 div.tile {
   /* style box */
   background: black;
-  border: 5px solid white;
+  border: 5px solid green;
   text-align: center;
   height: 150px;
   width: 150px;
